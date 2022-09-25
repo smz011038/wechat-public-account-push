@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oL0SO557pVywg7ZzH1l5gRK6nyl8,oL0SO58mmkvo_NFvHWsqktbqGp8I',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'OyQxWluKmAlVKnPbFKx8IP71qv68NRND0KVOH1BOxj8',
+      useTemplateId: 'dOt4jxNuku8gVRqx-gDaGcAZnsYhIdm_-NlCHhgmTcY',
       // 所在省份
       province: '江西',
       // 所在城市
@@ -82,23 +82,23 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老婆', year: '1996', date: '09-09',
+          type: '*生日', name: '老婆', year: '2003', date: '04-14',
         },
         {
-          type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '恋爱纪念日', year: '2023', date: '07-20',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '老婆', year: '2003', date: '04-14',
         },
         {
-          type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+          type: '节日', name: '被搭讪纪念日', year: '2021', date: '04-14',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2021-07-20' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
         // 退伍日
@@ -171,11 +171,11 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
+      name: '吴玉婷',
+      id: 'oL0SO557pVywg7ZzH1l5gRK6nyl8',
+      useTemplateId: 'dOt4jxNuku8gVRqx-gDaGcAZnsYhIdm_-NlCHhgmTcY',
+      province: '江西',
+      city: '抚州',
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: 'https://wangxinleo.cn',
@@ -184,11 +184,11 @@ const USER_CONFIG = {
       courseSchedule: null
     },
     {
-      name: '老婆2',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
+      name: '宋敏芝',
+      id: 'oL0SO58mmkvo_NFvHWsqktbqGp8I',
+      useTemplateId: '	dOt4jxNuku8gVRqx-gDaGcAZnsYhIdm_-NlCHhgmTcY',
+      province: '江西',
+      city: '南昌',
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: 'https://wangxinleo.cn',
