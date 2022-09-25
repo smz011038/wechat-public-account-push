@@ -31,18 +31,18 @@ const USER_CONFIG = {
     // 金山每日一句
     CIBA: true,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
-    momentCopyrighting: false,
+    momentCopyrighting: true,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry: false,
+    poetry: true,
 
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -171,9 +171,9 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '吴玉婷',
-      id: 'oL0SO557pVywg7ZzH1l5gRK6nyl8',
-      useTemplateId: 'dOt4jxNuku8gVRqx-gDaGcAZnsYhIdm_-NlCHhgmTcY',
+      name: '',
+      id: '',
+      useTemplateId: '',
       province: '江西',
       city: '抚州',
       horoscopeDate: '',
