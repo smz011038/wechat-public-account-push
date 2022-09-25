@@ -60,12 +60,12 @@ const USER_CONFIG = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: ['oL0SO58mmkvo_NFvHWsqktbqGp8I']
+  USERS: [
     {
       // 想要发送的人的名字
       name: '宋敏芝',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'wxid_4o7cdhi0qxf322',
+      id: 'oL0SO557pVywg7ZzH1l5gRK6nyl8,oL0SO58mmkvo_NFvHWsqktbqGp8I',
       // 你想对他发送的模板消息的模板ID
       useTemplateId: 'OyQxWluKmAlVKnPbFKx8IP71qv68NRND0KVOH1BOxj8',
       // 所在省份
