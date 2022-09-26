@@ -63,15 +63,15 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宋敏芝',
+      name: '吴玉婷',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oL0SO557pVywg7ZzH1l5gRK6nyl8',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'yV3pUegGrQVK0UnrkwcG8IQHCZHgmEhG25AJ49bfI74',
+      useTemplateId: 'nltEPVfyJOiHkOtdid9ALKN4ZjWDkfEoG7jzg7JyIPw',
       // 所在省份
       province: '江西',
       // 所在城市
-      city: '南昌',
+      city: '抚州',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -100,7 +100,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2021-07-20' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2021-07-20' },
         // 退伍日
         { keyword: 'ex_day', date: '2022-09-10' }
       ],
