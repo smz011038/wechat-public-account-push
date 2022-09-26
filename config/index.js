@@ -82,17 +82,17 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老婆', year: '2003', date: '04-14',
+          type: '*生日', name: '吴玉婷农历', year: '2003', date: '04-14',
         },
         {
           type: '节日', name: '恋爱纪念日', year: '2023', date: '07-20',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '老婆', year: '2003', date: '04-14',
+          type: '生日', name: '吴玉婷', year: '2003', date: '04-14',
         },
         {
-          type: '节日', name: '被搭讪纪念日', year: '2021', date: '04-14',
+          type: '节日', name: '国庆节', year: '2022', date: '10-01',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
